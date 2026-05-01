@@ -1,0 +1,17 @@
+name = "seo-cloak-worker"
+main = "src/worker.js"
+compatibility_date = "2025-04-01"
+
+# Bundle l'HTML de la page comme module texte
+rules = [
+  { type = "Text", globs = ["**/*.html"], fallthrough = true }
+]
+
+# A activer apres deploy initial pour servir sur ton domaine
+# [[routes]]
+# pattern = "example.com/produit-exemple"
+# zone_name = "example.com"
+
+[vars]
+# Change ce token pour bypasser le cloaking via ?preview=TOKEN
+PREVIEW_TOKEN = "change_this_to_a_long_random_string"

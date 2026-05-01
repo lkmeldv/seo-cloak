@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Exemple de Produit Premium | Boutique Exemple</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Description SEO de votre produit. Remplacez ce texte par votre vrai contenu optimise pour les moteurs de recherche.">
+<meta property="og:title" content="Exemple de Produit Premium | Boutique Exemple" />
+<meta property="og:description" content="Description Open Graph de votre produit." />
+<meta property="og:image" content="https://example.com/images/product.jpg" />
+<meta property="og:url" content="https://example.com/produit-exemple" />
+<meta property="og:type" content="product" />
+<meta property="og:site_name" content="Boutique Exemple" />
+<meta property="og:price:amount" content="99" />
+<meta property="og:price:currency" content="EUR" />
+<meta property="og:availability" content="in stock" />
+<link rel="canonical" href="https://example.com/produit-exemple">
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Product",
+  "name": "Exemple de Produit Premium",
+  "description": "Description du produit.",
+  "image": "https://example.com/images/product.jpg",
+  "brand": {"@type": "Brand", "name": "Boutique Exemple"},
+  "offers": {
+    "@type": "Offer",
+    "price": "99.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:1100px;margin:0 auto;padding:20px;color:#333;line-height:1.6}
+header{border-bottom:1px solid #eee;padding:15px 0;margin-bottom:30px}
+nav ul{list-style:none;padding:0;display:flex;gap:25px;flex-wrap:wrap}
+nav a{color:#555;text-decoration:none;font-weight:500}
+nav a.active{color:#000;border-bottom:2px solid #c8a97e}
+h1{font-size:32px;color:#2a2a2a;margin:20px 0 10px}
+h2{font-size:22px;color:#5a4a3a;font-weight:500}
+.product-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin:30px 0}
+.product-image{background:#f5f0e8;height:400px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#aaa}
+.product-price{font-size:28px;font-weight:600;color:#c8a97e;margin:20px 0}
+.btn{display:inline-block;background:#5a4a3a;color:#fff;padding:14px 30px;text-decoration:none;border-radius:4px;font-weight:500}
+footer{margin-top:60px;border-top:1px solid #eee;padding:30px 0;text-align:center;font-size:14px;color:#666}
+@media(max-width:768px){.product-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header>
+  <nav aria-label="Menu principal">
+    <ul>
+      <li><a href="/">Accueil</a></li>
+      <li><a href="/categorie-1">Categorie 1</a></li>
+      <li><a href="/categorie-2">Categorie 2</a></li>
+      <li><a class="active" href="/produit-exemple">Produit exemple</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main role="main">
+  <article>
+    <div class="product-grid">
+      <div class="product-image" role="img" aria-label="Photo du produit">
+        [Photo du produit]
+      </div>
+      <div>
+        <h1>Exemple de Produit Premium</h1>
+        <h2>Sous-titre descriptif accrocheur</h2>
+        <div class="product-price">99 EUR</div>
+        <div class="product-description">
+          <p>Premiere ligne de description courte et accrocheuse.</p>
+          <p>Paragraphe complet expliquant le produit, ses avantages et son contexte. Remplacez ce texte par votre contenu reel optimise pour vos mots-cles cibles.</p>
+          <p>Ajoutez des paragraphes additionnels pour enrichir le contenu et donner aux bots SEO matiere a indexer.</p>
+        </div>
+        <a href="/cart/add" class="btn">Acheter maintenant</a>
+      </div>
+    </div>
+  </article>
+
+  <section>
+    <h2>Vous aimerez aussi</h2>
+    <ul>
+      <li><a href="/produit-2">Produit lie 1</a></li>
+      <li><a href="/produit-3">Produit lie 2</a></li>
+      <li><a href="/produit-4">Produit lie 3</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p><strong>Boutique Exemple</strong></p>
+  <p>Adresse fictive, 75000 Paris | <a href="mailto:contact@example.com">contact@example.com</a></p>
+  <p>
+    <a href="/mentions-legales">Mentions legales</a> &middot;
+    <a href="/contact">Contact</a> &middot;
+    <a href="/politique-confidentialite">Confidentialite</a>
+  </p>
+</footer>
+
+</body>
+</html>
