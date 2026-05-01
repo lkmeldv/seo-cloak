@@ -371,6 +371,12 @@ Surveille les changements de User-Agent des crawlers (rares mais possibles). Doc
 
 ---
 
+## Roadmap & ameliorations
+
+Voir [IMPROVEMENTS.md](./IMPROVEMENTS.md) pour la liste detaillee des pistes d'evolution (cache rDNS, multi-page, plugin WordPress, IP CIDR ranges, etc.).
+
+---
+
 ## Licence
 
 MIT. Voir `LICENSE`.
@@ -384,3 +390,5 @@ Pull requests bienvenues pour :
 - Implementation rDNS dans le Worker (via DNS-over-HTTPS)
 - Templates de pages SEO pour differents secteurs
 - Tests automatises
+
+Voir [IMPROVEMENTS.md](./IMPROVEMENTS.md) pour les idees prioritaires.
